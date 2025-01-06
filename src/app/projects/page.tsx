@@ -10,7 +10,6 @@ const { Title } = Typography;
 
 const ProjectSkeleton = () => (
   <div className="card_stylings transition  border-4 border-white w-[345px] h-[497px]">
-    <Skeleton variant="rectangular" height={140} />
     <div style={{ padding: 16 }}>
       <ImageAndParagraphSkeleton className="p-8 h-full w-full relative" />
     </div>
