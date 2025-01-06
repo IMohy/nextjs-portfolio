@@ -17,8 +17,10 @@ const background = [
         title: "Amyal Smart",
         role: "Frontend Web Developer",
         url: "https://amyalsmart.com/",
-        desc: "As a React developer, design and build applications using Vite.js, Next.js, and TypeScript., creating landing pages, dashboards, systems for storage shops and products, and tracking systems for deliveries to monitor their locations.",
-        year: "01/2024 - Present",
+        desc: `- Designed and developed modern applications using Vite.js, Next.js, and TypeScript.
+- Built responsive landing pages, dashboards, and storage systems for shop products.
+- Implemented real-time tracking systems to monitor delivery locations.`,
+        year: "02/2024 - Present",
         location: "Saudi Arabia",
       },
       {
@@ -26,7 +28,9 @@ const background = [
         title: "MassFluence",
         role: "Frontend Web Developer",
         url: "https://www.mass-fluence.com/",
-        desc: "As a front-end web developer at Mass Fluence, I was specialized in developing web applications , dashboards, reports, and charts for corporate clients. Focused on delivering responsive solutions, with expertise in developing Learning Management Systems (LMS).",
+        desc: `- Specialized in developing web applications, corporate dashboards, and interactive charts.
+- Created responsive Learning Management Systems (LMS) tailored to client needs.
+- Ensured high performance and scalability of web applications.`,
         year: "10/2023 - 03/2024",
         location: "Lebanon",
       },
@@ -35,7 +39,9 @@ const background = [
         title: "Trugraph",
         role: "Frontend Web Developer",
         url: "N/A",
-        desc: "At a Trugraph,i was building web applications using Vite js, Next js, and TypeScript; creating landing pages and dashboards",
+        desc: `
+        - Engineered web applications using Vite.js, Next.js, and TypeScript.
+        - Enhanced user experiences by integrating modern UI frameworks.`,
         year: "09/2020 - 02/2021",
         location: "Egypt",
       },
@@ -44,8 +50,11 @@ const background = [
         title: "SmartiveMedia .INC",
         role: "Frontend Web Developer",
         url: "https://elmarketing.digital/",
-        desc: "At SmartiveMedia, i worked mostly in real estate and e-commerce applications ,including applications like Shopify, and ui libraries like Material-UI, Ant Design, Frameworks like Next.js, and Tailwind CSS. Proven skills in crafting intuitive and responsive interfaces.",
-        year: "09/2020 - 02/2021",
+        desc: `
+        - Built real estate and e-commerce applications using Next.js, Material-UI, and Ant Design.
+        - Developed Shopify-based platforms with Nextjs, Typescript and Tailwind CSS.
+        - Delivered responsive and user-friendly interfaces for diverse applications`,
+        year: "01/2022 - 12/2022",
         location: "Saudi Arabia",
       },
     ],

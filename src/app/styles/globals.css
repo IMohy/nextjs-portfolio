@@ -118,3 +118,10 @@ body {
 .textIcon:focus-within #icon {
   color: #1fdf64;
 }
+
+.projectCard .ant-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}

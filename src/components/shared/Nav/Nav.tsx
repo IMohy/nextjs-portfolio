@@ -22,7 +22,7 @@ const Nav: React.FC<NavProps> = ({ onClose, isOpen }) => {
                 <div className="flex flex-col gap-y-2 px-6 w-full transition">
                     <NavItem onClose={onClose} NavRoute={"/"} NavIcon={<ImHome />} NavText={"Home"} />
                     <NavItem onClose={onClose} NavRoute={"/contact"} NavIcon={<FaHandshake />} NavText={"Contact"} />
-                    <NavItem onClose={onClose} NavRoute={"/background"} NavIcon={<HiIdentification />} NavText={"Background"} />
+                    <NavItem onClose={onClose} NavRoute={"/projects"} NavIcon={<HiIdentification />} NavText={"Projects"} />
                 </div>
             </div>
         </DrawerLayout>

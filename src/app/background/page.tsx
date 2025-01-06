@@ -49,7 +49,13 @@ function Background() {
                         ? [1, 2, 3].map((_, i) => <ParagraphSkeleton key={i} className="p-8 h-full w-full relative" />)
                         : data &&
                         data[1]?.expCards?.map((expCard: ExpCard, key: Key | null | undefined) => (
-                            <ExperienceCard key={key} data={expCard} />
+                            <ExperienceCard 
+                                key={key} 
+                                data={{
+                                    ...expCard,
+                                    desc: expCard.desc.split('\n').filter(line => line.trim())
+                                }} 
+                            />
                         ))}
                 </div>
             </div>

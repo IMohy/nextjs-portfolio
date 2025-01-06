@@ -49,7 +49,6 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         />
         <link rel="icon" href="/images/mohy.jpeg" sizes="any" />
         <link rel="icon" href="/images/mohy.jpeg" type="image/png" sizes="32x32" />
-
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://imohy-portfolio-final.vercel.app/" />
         <meta property="og:title" content="IMohy | Developer" />
@@ -58,7 +57,6 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           content="IMohy - Professional developer offering services in web development, React, Next.js, and more."
         />
         <meta property="og:image" content="/images/mohy.jpeg" />
-
         <meta property="twitter:card" content="/images/mohy.jpeg" />
         <meta property="twitter:url" content="https://imohy-portfolio-final.vercel.app/" />
         <meta property="twitter:title" content="IMohy | Developer" />
@@ -95,8 +93,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           </div>
           <div className="flex relative h-full justify-between gap-x-3">
             <div
-              className={`w-64 h-screen left-0 lg:rounded-xl -top-10 lg:top-0 lg:left-0 lg:h-full overflow-hidden bg-DeepNightBlack shadow-2xl z-50 lg:flex flex-col  lg:relative ${intro ? "flex absolute" : "hidden"
-                }`}
+              className={`w-64 h-screen left-0 lg:rounded-xl -top-10 lg:top-0 lg:left-0 lg:h-full overflow-hidden bg-DeepNightBlack shadow-2xl z-50 lg:flex flex-col  lg:relative ${
+                intro ? "flex absolute" : "hidden"
+              }`}
             >
               <Intro />
             </div>
